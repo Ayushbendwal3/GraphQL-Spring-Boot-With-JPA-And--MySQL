@@ -1,0 +1,17 @@
+
+type SubjectResponse {
+    id : Long
+    subjectName : String
+    marksObtained : Float
+}
+
+type StudentResponse {
+    id : Long
+    firstName : String
+    lastName : String
+    email : String
+    street : String
+    city : String
+    learningSubjects(subjectFilter : SubjectFilter) : [SubjectResponse]
+    fullName : String
+}

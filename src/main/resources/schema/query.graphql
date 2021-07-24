@@ -1,0 +1,8 @@
+type Query {
+    firstQuery : String
+    secondQuery: String
+    fullName(nameRequest : NameRequest) : String
+    student(id: Long) : StudentResponse
+}
+
+
