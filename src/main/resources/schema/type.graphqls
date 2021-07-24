@@ -1,4 +1,3 @@
-
 type SubjectResponse {
     id : Long
     subjectName : String

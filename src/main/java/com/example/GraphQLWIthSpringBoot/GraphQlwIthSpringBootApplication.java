@@ -9,7 +9,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import javax.persistence.Entity;
 
 @SpringBootApplication
-@ComponentScan({"com.example.query", "com.example.service", "com.example.resolver"})
+@ComponentScan({"com.example.query", "com.example.service",
+        "com.example.resolver", "com.example.mutation"})
 @EntityScan("com.example.entity")
 @EnableJpaRepositories("com.example.repository")
 public class GraphQlwIthSpringBootApplication {

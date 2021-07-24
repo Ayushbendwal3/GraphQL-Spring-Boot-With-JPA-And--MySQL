@@ -29,6 +29,10 @@ public class StudentService {
         });
     }
 
+    public List<Student> getAllStudents(){
+        return studentRepository.findAll();
+    }
+
     public Student createStudent(CreateStudentRequest createStudentRequest){
         Student student = new Student(createStudentRequest);
 

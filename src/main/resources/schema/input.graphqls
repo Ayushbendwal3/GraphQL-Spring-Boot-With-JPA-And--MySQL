@@ -1,15 +1,10 @@
-input NameRequest {
-    firstName : String!
-    lastName : String!
-}
-
 input CreateStudentRequest {
     firstName: String
     lastName:String
     email:String
     street:String
     city:String
-    subjectsLearning : [CreateSubjectRequest];
+    subjectsLearning : [CreateSubjectRequest]
 }
 
 input CreateSubjectRequest {

@@ -1,6 +1,7 @@
 package com.example.resolver;
 
 import com.coxautodev.graphql.tools.GraphQLResolver;
+import com.example.entity.Student;
 import com.example.entity.Subject;
 import com.example.enums.SubjectNameFilter;
 import com.example.response.StudentResponse;
